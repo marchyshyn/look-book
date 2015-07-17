@@ -1,0 +1,63 @@
+section {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.backward {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.breadcrumb {
+	width: 1000px;
+	margin: 9px 0 42px 16px;
+}
+
+.breadcrumb li {
+	display: inline-block;
+	font-size: 11px;
+	color: #888;
+}
+
+.breadcrumb a {
+	color: #888;
+}
+
+.breadcrumb a:after {
+	content: '';
+	display: inline-block;
+	background: url(../assets/sprite.png) no-repeat -187px -178px;
+	width: 4px;
+	height: 5px;
+	padding: 0 3px;
+}
+
+.breadcrumb a:hover, .backward a:hover {
+	color: #555;
+}
+
+.backward a {
+	color: #888;
+}
+
+.backward a:before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 7px;
+	background: url(../assets/sprite.png) no-repeat -192px -187px;
+}
+
+.advantages {
+	background: #ff6600;
+	color: #fff;
+	font-size: 13px;
+}
+
+.advantages p {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px; 
+}

@@ -1,0 +1,225 @@
+@media (max-width: 1041px) {
+	.headerContent {
+		width: auto;
+	}
+
+	.barWrapper {
+		display: none;
+	}
+
+	.language {
+		display: none;
+	}
+
+	.mobile-language {
+		position: relative;
+		margin-left: 13px;
+		color: #888;
+		line-height: 40px;
+	}
+
+	.mobile-language .customOptions {
+		margin-left: -14px;
+		top: 0;
+		border: none;
+	}
+
+	.mobileNav li:hover{
+		background: #d2d2d2;
+		cursor: pointer;
+	}
+
+	.logo img {
+		display: none;
+	}
+
+	.logo a {
+		background: url(../assets/sprite.png) no-repeat -23px 2px;
+		width: 130px;
+		height: 44px;
+	}
+
+	.searchWrapper {
+		top: 12px;
+		right: 10px;
+	}
+
+	.navHeader {
+		display: none;
+	}
+
+	.tabletCart {
+		background: #f9f9f9;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		height: 29px;
+		display: block;
+	}
+
+	.tabletCart a {
+		line-height: 28px;
+		color: #c0c0c0;
+	}
+
+	.tabletCart a:before {
+		content: '';
+		display: inline-block;
+		width: 15px;
+		height: 12px;
+		background: url(../assets/sprite.png) no-repeat -132px -139px;
+	}
+
+	.tabletCart a:after {
+		content: '';
+		background: url(../assets/sprite.png) no-repeat -187px -195px;
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+	}
+
+	.mobileNav {
+		display: block;
+		position: absolute;
+		top: 0;
+		width: 40px;
+		height: 40px;
+	}
+
+	.mobileNav:after {
+		content: '';
+		display: block;
+		width: 15px;
+		height: 15px;
+		background: url(../assets/sprite.png) no-repeat -129px -183px;
+		position: absolute;
+		top: 12px;
+		left: 10px;
+	}
+
+	.mobileNav ul {
+		position: relative;
+		top: 44px;
+		z-index: 3;
+		display: none;
+		background: #fff;
+		border: 1px solid #ccc;
+		width: 150px;
+		font-family:'HelveticaNeue-300';
+		list-style-type: none;
+		text-align: left;
+	}
+
+	.mobileNav a {
+		color: #888;
+		font-size: 12px;
+		line-height: 40px;
+		margin-left: 15px;
+		display: block;
+	}
+
+	.customOptions li {
+		padding-left: 15px;
+	}
+
+	.account, .cart {
+		display: none;
+	}
+
+	section {
+		width: auto;
+	}
+
+	.backward {
+		width: auto;
+		margin-left: 10px;
+	}
+
+	.breadcrumb {
+		width: auto;
+		margin: 11px 0 19px 10px;
+	}
+
+	.navBlock ul {
+		margin: 9px 0px 0px 11px;
+	}
+
+	.advantages p {
+		width: 60%;
+		line-height: 20px;
+		padding: 8px 0;
+	}
+
+	.porscheCollection h1 {
+		font-size: 32px;
+		margin: 5px 0px 31px;
+	}
+
+	footer {
+		width: auto;
+	}
+
+	.footerContent {
+		width: auto;
+		margin: 0 10px;
+	}
+
+	.info {
+		padding-bottom: 18px;
+	}
+
+	.right-column {
+		position: relative;
+	}
+
+	.bottomContent, .bottomText {
+		width: auto;
+		margin: 0 10px;
+	}
+
+	.bottomText p {
+		width: 480px;
+	}
+
+	.porscheWrapper {
+		text-align: center;
+	}
+
+	.porscheCollection {
+		left: 45px;
+		width: 57%;
+		text-align: left;
+	}
+
+	.porscheCollection p {
+		width: auto;
+	}
+}
+
+@media (max-width: 903px){
+
+		.first-column{
+			width: 35.3%
+		}
+
+		.address {
+			margin-bottom: 25px;
+		}
+
+		.right-column {
+			float: right;
+			width: 30%;
+		}
+
+		.footerSearch {
+			float: left;
+		}	
+
+		.footerSearch input {
+			width: 81%;
+		}
+
+		.social {
+			float: left;
+			margin: 20px 0 0 0;
+		}
+	}
